@@ -5,7 +5,7 @@ curl -X PUT "https://api.cloudflare.com/client/v4/zones/db0036a57189911a561e6326
      --data '{
      "action": "block",
      "priority": 1000,
-     "paused": false,
+     "paused": true,
      "description": "Block Quốc Tế",
      "filter": {
     "id": "e1fb346390494fe28ea907e6c1f83fcc",
